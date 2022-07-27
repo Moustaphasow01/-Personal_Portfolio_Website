@@ -191,6 +191,19 @@ img {
   backdrop-filter: blur(10px);
 }
 
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link{
+  color: var(--text-color);
+  font-size: 1.25rem;
+  padding: .4rem;
+  display: flex;
+border-radius: 5rem;
+}
 /* Active link */
 
 
